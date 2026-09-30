@@ -1,0 +1,443 @@
+# Frosted Aether
+# Home Assistant dark frosted-glass theme
+# Visual direction inspired by https://potg.org/
+
+Frosted Aether:
+  card-mod-theme: "Frosted Aether"
+  primary-color: "#46b5ff"
+  dark-primary-color: "#248fd8"
+  darker-primary-color: "#176aa5"
+  light-primary-color: "#72d9ff"
+  accent-color: "#7f6cff"
+  primary-background-color: "#0a1220"
+  secondary-background-color: "#0b101e"
+  card-background-color: "rgba(15, 25, 42, 0.88)"
+  clear-background-color: "#0a1220"
+  primary-text-color: "#f5f8ff"
+  secondary-text-color: "#aebbd0"
+  text-primary-color: "#07101d"
+  text-light-primary-color: "#f5f8ff"
+  disabled-text-color: "#657087"
+  divider-color: "rgba(126, 190, 255, 0.12)"
+  outline-color: "rgba(126, 190, 255, 0.18)"
+  outline-hover-color: "rgba(126, 190, 255, 0.34)"
+  shadow-color: "rgba(0, 0, 0, 0.34)"
+  scrollbar-thumb-color: "rgba(126, 190, 255, 0.28)"
+  rgb-primary-color: "70, 181, 255"
+  rgb-accent-color: "127, 108, 255"
+  rgb-primary-text-color: "245, 248, 255"
+  rgb-secondary-text-color: "174, 187, 208"
+  rgb-text-primary-color: "7, 16, 29"
+  rgb-card-background-color: "15, 25, 42"
+  rgb-warning-color: "243, 191, 99"
+  rgb-error-color: "255, 111, 135"
+  rgb-success-color: "85, 214, 165"
+  rgb-info-color: "70, 181, 255"
+  app-header-background-color: "rgba(10, 18, 32, 0.94)"
+  app-header-text-color: "#f5f8ff"
+  app-header-selection-bar-color: "#46b5ff"
+  app-theme-color: "#0a1220"
+  sidebar-background-color: "rgba(10, 18, 32, 0.96)"
+  sidebar-text-color: "#aebbd0"
+  sidebar-icon-color: "rgba(174, 187, 208, 0.68)"
+  sidebar-selected-background-color: "rgba(70, 181, 255, 0.10)"
+  sidebar-selected-text-color: "#f5f8ff"
+  sidebar-selected-icon-color: "#46b5ff"
+  error-color: "#ff6f87"
+  warning-color: "#f3bf63"
+  success-color: "#55d6a5"
+  info-color: "#46b5ff"
+  red-color: "#ff6f87"
+  pink-color: "#ff7fb1"
+  purple-color: "#7f6cff"
+  deep-purple-color: "#6551dc"
+  indigo-color: "#6278ff"
+  blue-color: "#46b5ff"
+  light-blue-color: "#72d9ff"
+  cyan-color: "#7ee7ff"
+  teal-color: "#49d6c8"
+  green-color: "#55d6a5"
+  light-green-color: "#83e6bd"
+  lime-color: "#b9e875"
+  yellow-color: "#f8dc75"
+  amber-color: "#f3bf63"
+  orange-color: "#ee9e5d"
+  deep-orange-color: "#ef7c62"
+  brown-color: "#b18a75"
+  light-grey-color: "#aebbd0"
+  grey-color: "#8291aa"
+  dark-grey-color: "#40516b"
+  blue-grey-color: "#6d82a0"
+  black-color: "#000000"
+  white-color: "#ffffff"
+  disabled-color: "#40516b"
+  state-icon-color: "#8291aa"
+  state-icon-active-color: "#46b5ff"
+  state-icon-unavailable-color: "#40516b"
+  state-icon-error-color: "#ff6f87"
+  state-active-color: "#46b5ff"
+  state-inactive-color: "#657087"
+  state-unavailable-color: "#40516b"
+  input-idle-line-color: "rgba(174, 187, 208, 0.30)"
+  input-hover-line-color: "rgba(70, 181, 255, 0.80)"
+  input-disabled-line-color: "rgba(174, 187, 208, 0.10)"
+  input-outlined-idle-border-color: "rgba(126, 190, 255, 0.18)"
+  input-outlined-hover-border-color: "rgba(70, 181, 255, 0.55)"
+  input-outlined-disabled-border-color: "rgba(174, 187, 208, 0.10)"
+  input-fill-color: "rgba(255, 255, 255, 0.045)"
+  input-disabled-fill-color: "rgba(255, 255, 255, 0.022)"
+  input-ink-color: "#f5f8ff"
+  input-label-ink-color: "#aebbd0"
+  input-disabled-ink-color: "#657087"
+  input-dropdown-icon-color: "#8291aa"
+  mdc-theme-primary: "#46b5ff"
+  mdc-theme-secondary: "#7f6cff"
+  mdc-theme-background: "#0a1220"
+  mdc-theme-surface: "#101a2b"
+  mdc-theme-on-primary: "#07101d"
+  mdc-theme-on-secondary: "#ffffff"
+  mdc-theme-on-surface: "#f5f8ff"
+  mdc-theme-error: "#ff6f87"
+  mdc-dialog-background-color: "rgba(13, 22, 38, 0.97)"
+  mdc-dialog-heading-ink-color: "#f5f8ff"
+  mdc-dialog-content-ink-color: "#f5f8ff"
+  paper-dialog-background-color: "#101a2b"
+  paper-listbox-background-color: "#101a2b"
+  paper-item-icon-color: "#8291aa"
+  paper-item-icon-active-color: "#46b5ff"
+  switch-checked-color: "#46b5ff"
+  switch-checked-button-color: "#eaf9ff"
+  switch-checked-track-color: "rgba(70, 181, 255, 0.48)"
+  switch-unchecked-button-color: "#8291aa"
+  switch-unchecked-track-color: "rgba(101, 112, 135, 0.30)"
+  paper-slider-knob-color: "#46b5ff"
+  paper-slider-knob-start-color: "#46b5ff"
+  paper-slider-pin-color: "#46b5ff"
+  paper-slider-active-color: "#46b5ff"
+  paper-slider-secondary-color: "#7f6cff"
+  paper-slider-container-color: "rgba(126, 190, 255, 0.14)"
+  chip-background-color: "rgba(255, 255, 255, 0.055)"
+  ha-assist-chip-filled-container-color: "rgba(255, 255, 255, 0.055)"
+  ha-assist-chip-active-container-color: "rgba(70, 181, 255, 0.16)"
+  label-badge-grey: "#8291aa"
+  label-badge-background-color: "rgba(15, 25, 42, 0.92)"
+  label-badge-text-color: "#f5f8ff"
+  label-badge-red: "#ff6f87"
+  label-badge-blue: "#46b5ff"
+  label-badge-green: "#55d6a5"
+  label-badge-yellow: "#f3bf63"
+  table-header-background-color: "rgba(255, 255, 255, 0.045)"
+  table-row-background-color: "rgba(15, 25, 42, 0.70)"
+  table-row-alternative-background-color: "rgba(19, 31, 51, 0.68)"
+  data-table-background-color: "rgba(15, 25, 42, 0.88)"
+  markdown-code-background-color: "rgba(7, 16, 29, 0.72)"
+  map-filter: "invert(0.91) hue-rotate(170deg) brightness(0.76) contrast(1.08) saturate(0.55)"
+  paper-card-background-color: "rgba(15, 25, 42, 0.88)"
+  paper-card-header-color: "#f5f8ff"
+  ha-color-primary-05: "#061523"
+  ha-color-primary-10: "#0a2033"
+  ha-color-primary-20: "#0f3552"
+  ha-color-primary-30: "#18567e"
+  ha-color-primary-40: "#248fd8"
+  ha-color-primary-50: "#46b5ff"
+  ha-color-primary-60: "#62c6ff"
+  ha-color-primary-70: "#83d4ff"
+  ha-color-primary-80: "#afe4ff"
+  ha-color-primary-90: "#d6f2ff"
+  ha-color-primary-95: "#eaf9ff"
+  ha-color-neutral-05: "#070b12"
+  ha-color-neutral-10: "#0b101e"
+  ha-color-neutral-20: "#101a2b"
+  ha-color-neutral-30: "#17243a"
+  ha-color-neutral-40: "#23334c"
+  ha-color-neutral-50: "#40516b"
+  ha-color-neutral-60: "#657087"
+  ha-color-neutral-70: "#8291aa"
+  ha-color-neutral-80: "#aebbd0"
+  ha-color-neutral-90: "#d7dfec"
+  ha-color-neutral-95: "#f0f4fa"
+  ha-color-black: "#000000"
+  ha-color-white: "#ffffff"
+  ha-color-red-05: "#240710"
+  ha-color-red-10: "#35101a"
+  ha-color-red-20: "#571827"
+  ha-color-red-30: "#7a2336"
+  ha-color-red-40: "#a3354c"
+  ha-color-red-50: "#d64f68"
+  ha-color-red-60: "#ff6f87"
+  ha-color-red-70: "#ff91a3"
+  ha-color-red-80: "#ffb5c0"
+  ha-color-red-90: "#ffdde3"
+  ha-color-red-95: "#fff0f3"
+  ha-color-green-05: "#061811"
+  ha-color-green-10: "#0a261b"
+  ha-color-green-20: "#103c2b"
+  ha-color-green-30: "#18533c"
+  ha-color-green-40: "#226f51"
+  ha-color-green-50: "#39a879"
+  ha-color-green-60: "#55d6a5"
+  ha-color-green-70: "#7ce2ba"
+  ha-color-green-80: "#a4edcf"
+  ha-color-green-90: "#d1f7e7"
+  ha-color-green-95: "#eafcf4"
+  ha-color-orange-05: "#211304"
+  ha-color-orange-10: "#36220a"
+  ha-color-orange-20: "#543613"
+  ha-color-orange-30: "#764d20"
+  ha-color-orange-40: "#9e692f"
+  ha-color-orange-50: "#d49645"
+  ha-color-orange-60: "#f3bf63"
+  ha-color-orange-70: "#f8ce82"
+  ha-color-orange-80: "#fbe0ad"
+  ha-color-orange-90: "#fff0d6"
+  ha-color-orange-95: "#fff8e9"
+  ha-font-family-body: "Inter, \"PingFang SC\", \"Microsoft YaHei\", \"Noto Sans SC\", system-ui, sans-serif"
+  ha-font-family-heading: "Inter, \"PingFang SC\", \"Microsoft YaHei\", \"Noto Sans SC\", system-ui, sans-serif"
+  ha-font-family-longform: "Inter, \"PingFang SC\", \"Microsoft YaHei\", \"Noto Sans SC\", system-ui, sans-serif"
+  primary-font-family: "Inter, \"PingFang SC\", \"Microsoft YaHei\", \"Noto Sans SC\", system-ui, sans-serif"
+  mdc-typography-font-family: "Inter, \"PingFang SC\", \"Microsoft YaHei\", \"Noto Sans SC\", system-ui, sans-serif"
+  mdc-typography-button-font-family: "Inter, \"PingFang SC\", \"Microsoft YaHei\", \"Noto Sans SC\", system-ui, sans-serif"
+  mdc-typography-body1-font-family: "Inter, \"PingFang SC\", \"Microsoft YaHei\", \"Noto Sans SC\", system-ui, sans-serif"
+  ha-font-family-code: "\"JetBrains Mono\", \"Cascadia Code\", \"SFMono-Regular\", Consolas, monospace"
+  ha-font-weight-light: "300"
+  ha-font-weight-normal: "400"
+  ha-font-weight-medium: "500"
+  ha-font-weight-bold: "700"
+  ha-line-height-condensed: "1.25"
+  ha-line-height-normal: "1.55"
+  ha-line-height-expanded: "1.85"
+  lovelace-background: >-
+    radial-gradient(circle at 10% 8%, rgba(70,181,255,.15) 0%, rgba(70,181,255,.04) 22%, transparent 42%),
+    radial-gradient(circle at 88% 12%, rgba(127,108,255,.15) 0%, rgba(127,108,255,.035) 24%, transparent 44%),
+    radial-gradient(circle at 50% 100%, rgba(70,181,255,.07) 0%, transparent 38%),
+    linear-gradient(135deg, #0a1220 0%, #0b101e 52%, #091322 100%)
+  ha-card-background: "linear-gradient(145deg, rgba(20,33,54,.80) 0%, rgba(12,21,36,.72) 58%, rgba(15,23,40,.80) 100%)"
+  ha-card-border-radius: "18px"
+  ha-card-border-width: "1px"
+  ha-card-border-color: "rgba(126, 190, 255, 0.16)"
+  ha-card-box-shadow: "0 14px 38px rgba(0, 0, 0, 0.28)"
+  ha-card-header-color: "#f5f8ff"
+  color-1: "#46b5ff"
+  color-2: "#7f6cff"
+  color-3: "#7ee7ff"
+  color-4: "#55d6a5"
+  color-5: "#f3bf63"
+  color-6: "#ff7fb1"
+  color-7: "#62c6ff"
+  color-8: "#a99cff"
+  color-9: "#49d6c8"
+  color-10: "#248fd8"
+  color-11: "#d49645"
+  color-12: "#ff6f87"
+  color-13: "#39a879"
+  color-14: "#6551dc"
+  color-15: "#72d9ff"
+  color-16: "#b18a75"
+  color-17: "#83d4ff"
+  color-18: "#9277ff"
+  color-19: "#55d6a5"
+  color-20: "#f8dc75"
+  color-21: "#ef7c62"
+  color-22: "#7ce2ba"
+  color-23: "#b9e875"
+  color-24: "#ff9ec6"
+  color-25: "#b3a8ff"
+  color-26: "#afe4ff"
+  color-27: "#c39a82"
+  color-28: "#766ee8"
+  color-29: "#9ee773"
+  color-30: "#e85e7d"
+  color-31: "#c48444"
+  color-32: "#f39274"
+  color-33: "#8ebfff"
+  color-34: "#e7b85a"
+  color-35: "#dae980"
+  color-36: "#e670a1"
+  color-37: "#d8b34e"
+  color-38: "#b59846"
+  color-39: "#7897ff"
+  color-40: "#63dcae"
+  color-41: "#cf8450"
+  color-42: "#51cdbc"
+  color-43: "#d0ac57"
+  color-44: "#d6f2ff"
+  color-45: "#ffd2e1"
+  color-46: "#bc8fd0"
+  color-47: "#8adbd4"
+  color-48: "#cbc2ec"
+  color-49: "#ff90bd"
+  color-50: "#b9b058"
+  color-51: "#e9a04d"
+  color-52: "#66ddec"
+  color-53: "#a66ac8"
+  color-54: "#46b5ff"
+  history-unavailable-color: "transparent"
+  history-unknown-color: "#40516b"
+  energy-grid-consumption-color: "#46b5ff"
+  energy-grid-return-color: "#7f6cff"
+  energy-solar-color: "#f3bf63"
+  energy-non-fossil-color: "#55d6a5"
+  energy-battery-out-color: "#7ee7ff"
+  energy-battery-in-color: "#ff7fb1"
+  energy-gas-color: "#ef7c62"
+  energy-water-color: "#62c6ff"
+  state-alarm_control_panel-armed_away-color: "#55d6a5"
+  state-alarm_control_panel-armed_home-color: "#46b5ff"
+  state-alarm_control_panel-armed_night-color: "#7f6cff"
+  state-alarm_control_panel-arming-color: "#f3bf63"
+  state-alarm_control_panel-disarming-color: "#f3bf63"
+  state-alarm_control_panel-pending-color: "#f3bf63"
+  state-alarm_control_panel-triggered-color: "#ff6f87"
+  state-alert-on-color: "#ff6f87"
+  state-alert-off-color: "#657087"
+  state-binary_sensor-active-color: "#46b5ff"
+  state-binary_sensor-battery-on-color: "#ff6f87"
+  state-binary_sensor-carbon_monoxide-on-color: "#ff6f87"
+  state-binary_sensor-gas-on-color: "#ff6f87"
+  state-binary_sensor-glass_break-on-color: "#ff6f87"
+  state-binary_sensor-heat-on-color: "#ef7c62"
+  state-binary_sensor-lock-on-color: "#ff6f87"
+  state-binary_sensor-moisture-on-color: "#46b5ff"
+  state-binary_sensor-problem-on-color: "#ff6f87"
+  state-binary_sensor-safety-on-color: "#ff6f87"
+  state-binary_sensor-smoke-on-color: "#ff6f87"
+  state-binary_sensor-sound-on-color: "#f3bf63"
+  state-binary_sensor-tamper-on-color: "#ff6f87"
+  state-climate-auto-color: "#55d6a5"
+  state-climate-cool-color: "#46b5ff"
+  state-climate-dry-color: "#f3bf63"
+  state-climate-fan_only-color: "#7ee7ff"
+  state-climate-heat-color: "#ef7c62"
+  state-climate-heat_cool-color: "#7f6cff"
+  state-cover-active-color: "#7f6cff"
+  state-device_tracker-active-color: "#46b5ff"
+  state-device_tracker-home-color: "#55d6a5"
+  state-fan-active-color: "#7ee7ff"
+  state-humidifier-on-color: "#46b5ff"
+  state-lawn_mower-active-color: "#49d6c8"
+  state-lawn_mower-error-color: "#ff6f87"
+  state-light-active-color: "#72d9ff"
+  state-lock-jammed-color: "#ff6f87"
+  state-lock-locked-color: "#55d6a5"
+  state-lock-locking-color: "#f3bf63"
+  state-lock-unlocked-color: "#ff6f87"
+  state-lock-unlocking-color: "#f3bf63"
+  state-media_player-active-color: "#46b5ff"
+  state-person-active-color: "#46b5ff"
+  state-person-home-color: "#55d6a5"
+  state-plant-active-color: "#ff6f87"
+  state-siren-active-color: "#ff6f87"
+  state-sun-above_horizon-color: "#f3bf63"
+  state-sun-below_horizon-color: "#7f6cff"
+  state-switch-active-color: "#46b5ff"
+  state-update-active-color: "#f3bf63"
+  state-vacuum-active-color: "#49d6c8"
+  state-vacuum-error-color: "#ff6f87"
+  state-valve-active-color: "#46b5ff"
+  state-sensor-battery-high-color: "#55d6a5"
+  state-sensor-battery-medium-color: "#f3bf63"
+  state-sensor-battery-low-color: "#ff6f87"
+  state-weather-clear_night-color: "#7f6cff"
+  state-weather-cloudy-color: "#aebbd0"
+  state-weather-exceptional-color: "#ff6f87"
+  state-weather-fog-color: "#8291aa"
+  state-weather-hail-color: "#7ee7ff"
+  state-weather-lightning_rainy-color: "#b9e875"
+  state-weather-lightning-color: "#f8dc75"
+  state-weather-partlycloudy-color: "#6d82a0"
+  state-weather-pouring-color: "#6278ff"
+  state-weather-rainy-color: "#46b5ff"
+  state-weather-snowy_rainy-color: "#72d9ff"
+  state-weather-snowy-color: "#d6f2ff"
+  state-weather-sunny-color: "#f3bf63"
+  state-weather-windy_variant-color: "#55d6a5"
+  state-weather-windy-color: "#55d6a5"
+  card-mod-root: |
+    :host {
+      --app-header-background-color: rgba(10,18,32,.82);
+      --app-header-text-color: #f5f8ff;
+    }
+    home-assistant, ha-app-layout, #view {
+      background: var(--lovelace-background) !important;
+      background-attachment: fixed !important;
+      color: #f5f8ff;
+    }
+    app-header, app-toolbar {
+      background: linear-gradient(90deg,rgba(10,18,32,.88),rgba(13,24,42,.82) 48%,rgba(16,21,43,.88)) !important;
+      border-bottom: 1px solid rgba(126,190,255,.10);
+      backdrop-filter: blur(18px) saturate(135%);
+      -webkit-backdrop-filter: blur(18px) saturate(135%);
+      box-shadow: 0 10px 28px rgba(0,0,0,.20);
+    }
+  card-mod-sidebar: |
+    :host {
+      background: radial-gradient(circle at 18% 4%,rgba(70,181,255,.08),transparent 34%),linear-gradient(180deg,rgba(10,18,32,.94),rgba(11,16,30,.97)) !important;
+      border-right: 1px solid rgba(126,190,255,.10);
+      backdrop-filter: blur(18px) saturate(130%);
+      -webkit-backdrop-filter: blur(18px) saturate(130%);
+    }
+    .selected {
+      border-radius: 12px;
+      background: linear-gradient(90deg,rgba(70,181,255,.12),rgba(127,108,255,.08)) !important;
+    }
+  card-mod-view: |
+    :host, hui-view, hui-sections-view, hui-panel-view, hui-masonry-view { background: transparent !important; }
+  card-mod-card: |
+    ha-card {
+      position: relative;
+      overflow: hidden;
+      color: #f5f8ff;
+      border: 1px solid rgba(126,190,255,.16) !important;
+      border-radius: 18px !important;
+      background: radial-gradient(circle at 8% 0%,rgba(70,181,255,.075),transparent 30%),radial-gradient(circle at 100% 100%,rgba(127,108,255,.06),transparent 32%),linear-gradient(145deg,rgba(20,33,54,.79),rgba(12,21,36,.72) 60%,rgba(15,23,40,.80)) !important;
+      box-shadow: 0 14px 38px rgba(0,0,0,.28),inset 0 1px 0 rgba(255,255,255,.025);
+      backdrop-filter: blur(15px) saturate(128%);
+      -webkit-backdrop-filter: blur(15px) saturate(128%);
+      transition: transform 180ms ease,border-color 180ms ease,box-shadow 180ms ease;
+    }
+    ha-card:hover {
+      transform: translateY(-1px);
+      border-color: rgba(126,190,255,.30) !important;
+      box-shadow: 0 18px 46px rgba(0,0,0,.32),0 0 28px rgba(70,181,255,.075),0 0 46px rgba(127,108,255,.045);
+    }
+    ha-card a { color: #72d9ff; }
+  card-mod-row: |
+    :host { border-radius: 12px; transition: background 160ms ease; }
+    :host(:hover) { background: linear-gradient(90deg,rgba(70,181,255,.055),rgba(127,108,255,.035)); }
+  card-mod-badge: |
+    :host {
+      border: 1px solid rgba(126,190,255,.18);
+      border-radius: 999px;
+      background: rgba(15,25,42,.72);
+      box-shadow: 0 8px 24px rgba(0,0,0,.18);
+      backdrop-filter: blur(12px) saturate(125%);
+      -webkit-backdrop-filter: blur(12px) saturate(125%);
+    }
+  card-mod-assist-chip: |
+    :host {
+      border-radius: 999px;
+      background: linear-gradient(90deg,rgba(70,181,255,.12),rgba(127,108,255,.09));
+      border: 1px solid rgba(126,190,255,.16);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+  card-mod-dialog: |
+    ha-dialog, ha-adaptive-dialog, .mdc-dialog__surface {
+      background: radial-gradient(circle at 10% 0%,rgba(70,181,255,.08),transparent 32%),radial-gradient(circle at 100% 100%,rgba(127,108,255,.06),transparent 38%),rgba(13,22,38,.95) !important;
+      border: 1px solid rgba(126,190,255,.16);
+      border-radius: 20px !important;
+      backdrop-filter: blur(22px) saturate(135%);
+      -webkit-backdrop-filter: blur(22px) saturate(135%);
+      box-shadow: 0 28px 78px rgba(0,0,0,.48),0 0 36px rgba(70,181,255,.055);
+    }
+  card-mod-config: |
+    :host { --ha-card-background: rgba(15,25,42,.86); --card-background-color: rgba(15,25,42,.86); }
+  card-mod-panel-custom: |
+    :host { background: transparent !important; }
+  modes:
+    dark:
+      primary-background-color: "#0a1220"
+      secondary-background-color: "#0b101e"
+      card-background-color: "rgba(15, 25, 42, 0.88)"
+      primary-text-color: "#f5f8ff"
+      secondary-text-color: "#aebbd0"
